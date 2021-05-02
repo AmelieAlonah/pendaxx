@@ -1,0 +1,61 @@
+main {
+    font-family: 'Original Surfer', cursive;
+    display: flex;
+}
+
+.header {
+    background-color: grey;
+    width: auto;
+    height: 5vh;
+    text-align: center;
+}
+
+#div--left {
+    width: 25%;
+    height:90vh;
+    background-color: rgb(175, 73, 73);
+}
+
+.themes--select {
+    border: solid black 2px;
+}
+
+#themes {
+
+    background-color: green;
+    border: solid blue;
+    border-radius: 5px;
+    width: 80px;
+
+}
+
+#div--center{
+    width: 50%;
+    height:90vh;
+    background-color: rgb(69, 69, 189);
+}
+
+#hangman{
+    height: 70%;
+    width:100%;
+    border: 1px solid rgb(206, 206, 46)
+}
+
+#table{
+    height: 30%;
+    width:100%;
+    border: 1px solid rgb(46, 142, 206)
+}
+
+#div--right {
+    width: 25%;
+    height:90vh;
+    background-color: rgb(19, 110, 19);
+}
+
+.footer {
+    background-color: grey;
+    width: auto;
+    height: 5vh;
+    text-align: center;
+}

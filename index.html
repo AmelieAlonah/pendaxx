@@ -6,14 +6,77 @@
     <meta name="viewport" content="width=, initial-scale=1.0">
     <link rel="stylesheet" href="./css/reset.css">
     <link rel="stylesheet" href="./css/style.css">
+    <link rel="stylesheet" href="<link href="https://fonts.googleapis.com/css2?family=Original+Surfer&display=swap" rel="stylesheet">
     <title>Pendaxx</title>
 </head>
 
 <body>
-    
 
-    <h1>blabla</h1>
+    <header class="header">
 
+        <h1>Alexandre and Amélie present you their new game :</h1>
+        <h2>Pendaxx</h2>
+
+    </header>
     
+    <main class="main">
+
+        <div class="div" id="div--left">
+
+        <label class="themes--select" for="themes">Choisissez votre thème</label>
+            <select name="themes" id="themes">
+                
+                <option value="default">Par défaut</option>
+                <option value="black">Sombre</option>
+                <option value="fof">F0F</option>
+                <option value="matrix">Matrix</option>
+            </select>
+            
+            <label class="season--select" for="season">Choisissez la saison</label>
+            <select name="season" id="season">
+                <option value="saison1">Saison 1</option>
+                <option value="saison2">Saison 2</option>
+                <option value="saison3">Saison 3</option>
+            </select>
+
+            <label class="langage--select" for="langage">Choisissez la langue</label>
+            <select name="langage" id="langage">
+                <option value="Français">Français 1</option>
+                <option value="Anglais">Anglais 2</option>
+            </select>
+
+
+        </div>
+
+        <div class="div" id="div--center">
+
+            <div id="hangman">
+
+            </div>
+            <div id="table">
+
+            </div>
+
+        </div>
+
+        <div class="div" id="div--right">
+
+            <input type="text" id="input" placeholder="Tapez votre lettre ici" maxlength="1">
+            <button type="button" id="button"></button>
+
+        </div>
+
+    </main>
+
+    <footer class="footer">
+
+        <p>Tous droits pas encore reservés</p>
+
+    </footer>
+
+
+<script src="js/tables.js"></script>
+<script src="js/game.js"></script>
+<script src="js/app.js"></script>
 </body>
 </html>
