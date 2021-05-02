@@ -1,61 +1,160 @@
+/* ! Création des variables de couleurs pour les thèmes */
+
+html {
+
+    --color-backgroung: #0AC3A7 ;
+    --color-letter : #FFFDD8 ;
+    --color-letf : #234B78 ;
+    --color-right : #774359 ;
+    --color-center : #D83A37 ;
+    --color-button : #FFB400 ;
+
+}
+
+/** Page principale =========================================================*/
+
 main {
     font-family: 'Original Surfer', cursive;
     display: flex;
 }
 
+/**Header =================================================================  */
+
 .header {
-    background-color: grey;
-    width: auto;
-    height: 5vh;
-    text-align: center;
+    background-color: var(--color-backgroung) ;
+    width: auto ;
+    height: 5vh ;
+    text-align: center ;
+    font-weight: bolder ;
 }
+
+h2 {
+
+    margin-top: 0.5em ;
+}
+/** Côté gauche================================================================ */
 
 #div--left {
     width: 25%;
     height:90vh;
-    background-color: rgb(175, 73, 73);
+    background-color: var(--color-letf) ;
+    /*=================================*/
+    
 }
 
-.themes--select {
-    border: solid black 2px;
+.choice {
+
+    margin-bottom: 18em ;
+    margin-top: 2em ;
+    padding: 1em ;
+    text-align: center;
+    font-family: 'Original Surfer', cursive ;
 }
 
 #themes {
 
-    background-color: green;
-    border: solid blue;
-    border-radius: 5px;
-    width: 80px;
-
+    width: 6em ;
+    font-family: 'Original Surfer', cursive ;
+    background-color: var(--color-button) ;
+    border-radius: 5px ;
 }
 
+#season {
+
+    width: 6em ;
+    font-family: 'Original Surfer', cursive ;
+    background-color: var(--color-button) ;
+    border-radius: 5px ;
+}
+
+#langage {
+
+    width: 6em ;
+    font-family: 'Original Surfer', cursive ;
+    background-color: var(--color-button) ;
+    border-radius: 5px ;
+}
+
+/** Centre de la page ============================================================  */
+
 #div--center{
+
     width: 50%;
     height:90vh;
-    background-color: rgb(69, 69, 189);
+    background-color: var(--color-center) ;
 }
 
 #hangman{
+
     height: 70%;
     width:100%;
-    border: 1px solid rgb(206, 206, 46)
+    background-color:  var(--color-center) ;
 }
 
 #table{
+
     height: 30%;
     width:100%;
-    border: 1px solid rgb(46, 142, 206)
+    background-color:  var(--color-center) ;
 }
+
+
+/** Côté droit========================================================================== */
 
 #div--right {
     width: 25%;
     height:90vh;
-    background-color: rgb(19, 110, 19);
+    background-color: var(--color-right) ;
+    text-align: center ;
+
 }
 
-.footer {
-    background-color: grey;
-    width: auto;
-    height: 5vh;
-    text-align: center;
+#input {
+    height: 2em ;
+    width: 10em ;
+    font-family: 'Original Surfer', cursive ;
+    background-color: var(--color-button) ;
+    margin: 1em ;
+    margin-top: 30em ;
+    border-radius: 5px ;
+
 }
+
+#button {
+
+    height: 2em ;
+    width: 5em ;
+    font-family: 'Original Surfer', cursive ;
+    background-color: var(--color-button) ;
+    margin: 1em ;
+    border-radius: 5px ;
+}
+
+/**Footer==============================================================================  */
+
+.footer {
+    background-color: var(--color-backgroung) ;
+    width: auto ;
+    height: 5vh ;
+    text-align: center ;
+}
+
+.footer p {
+
+    padding-top: 0.5em ;
+    font-family: 'Original Surfer', cursive ;
+    font-weight: bolder ;
+}
+
+/** Thèmes de couleurs =================================================================  */
+
+body.f0f {
+
+    --color-backgroung: #FF00FF ;
+    --color-letter : #FF00B7 ;
+    --color-letf : #FF5679 ;
+    --color-right : #FF9B4F ;
+    --color-center : #FFCF48 ;
+    --color-button : #F9F871 ;
+}
+
