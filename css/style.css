@@ -121,20 +121,20 @@ h2 {
     width: 10em ;
     font-family: 'Original Surfer', cursive ;
     background-color: var(--color-button) ;
-    margin: 1em ;
     margin-top: 30em ;
     border-radius: 5px ;
 
 }
 
-#button {
-
+#button {   
+    
     height: 2em ;
-    width: 5em ;
+    width: 4em ;
+    border-radius: 5px;
     font-family: 'Original Surfer', cursive ;
     background-color: var(--color-button) ;
-    margin: 1em ;
     border-radius: 5px ;
+    
 }
 
 /**Footer==============================================================================  */

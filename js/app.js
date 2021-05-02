@@ -14,6 +14,7 @@ const app = {
     },
 
     //Changement de thème de couleur
+    //TODO ajouter cookies :p
     handleThemeSelect : function( event ) {
 
         let valueTheme = document.querySelector('#themes').value ;
