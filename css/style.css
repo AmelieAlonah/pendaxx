@@ -16,6 +16,7 @@ html {
 main {
     font-family: 'Original Surfer', cursive;
     display: flex;
+    color: var(--color-letter);
 }
 
 /**Header =================================================================  */
@@ -28,8 +29,14 @@ main {
     font-weight: bolder ;
 }
 
+h1 {
+
+    color: var(--color-letter);
+}
+
 h2 {
 
+    color: var(--color-letter);
     margin-top: 0.5em ;
 }
 /** Côté gauche================================================================ */
@@ -141,6 +148,7 @@ h2 {
 
 .footer p {
 
+    color: var(--color-letter) ;
     padding-top: 0.5em ;
     font-family: 'Original Surfer', cursive ;
     font-weight: bolder ;
@@ -148,13 +156,42 @@ h2 {
 
 /** Thèmes de couleurs =================================================================  */
 
+body.default {
+
+    --color-backgroung: #0AC3A7 ;
+    --color-letter : #FFFDD8 ;
+    --color-letf : #234B78 ;
+    --color-right : #774359 ;
+    --color-center : #D83A37 ;
+    --color-button : #FFB400 ;
+}
+
 body.f0f {
 
     --color-backgroung: #FF00FF ;
-    --color-letter : #FF00B7 ;
+    --color-letter : #FFCF48 ;
     --color-letf : #FF5679 ;
     --color-right : #FF9B4F ;
-    --color-center : #FFCF48 ;
+    --color-center : #FF00B7 ;
     --color-button : #F9F871 ;
 }
 
+body.black {
+
+    --color-backgroung: #000000 ;
+    --color-letter : #82A0AA ;
+    --color-letf : #4B4A54 ;
+    --color-right : #677381 ;
+    --color-center : #2A272A;
+    --color-button : #A3CFCD ;
+}
+
+body.matrix {
+
+    --color-backgroung: #2F4858 ;
+    --color-letter : #33FF00 ;
+    --color-letf : #00BB9C ;
+    --color-right : #0094A3 ;
+    --color-center : #006D89;
+    --color-button : #00DF74 ;
+}
